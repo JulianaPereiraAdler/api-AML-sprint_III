@@ -97,8 +97,8 @@ def decrypt(encrypted_data_str, password):
 def diligencia_compliance_inicial(cpf, nome_completo, API_Key):
     #realiza diligencia de compliance inicial e retorna html para ser enviado por email para o complinace
 
-    html_resposta_header = '<p style="padding-bottom:10px;"><b>Castrodro do Investidor '+ nome_completo.upper() +'('+cpf+') foi concluído. </b></p>'
-    html_resposta_header = html_resposta_header + '<p style="padding-bottom:10px;"><b><u>Diligência de Compliance Inicial</u></b></p>'
+    html_resposta_header = '<p style="padding-bottom:20px;"><b>Castrodro do Investidor '+ nome_completo.upper() +'('+cpf+') foi concluído. </b></p>'
+    html_resposta_header = html_resposta_header + '<p style="padding-bottom:10px;"><b>DILIGÊNCIA DE COMPLIANCE INICIAL:</b></p>'
 
     first_name = nome_completo.split()[0]
     last_name = nome_completo.split()[-1]
