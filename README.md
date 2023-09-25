@@ -52,7 +52,7 @@ Em modo de desenvolvimento é recomendado executar utilizando o parâmetro reloa
 ---
 ### Acesso no browser
 
-Abra o [http://localhost:5000/#/](http://localhost:5001/#/) no navegador para verificar o status da API em execução.
+Abra o [http://localhost:5001/#/](http://localhost:5001/#/) no navegador para verificar o status da API em execução.
 
 ---
 ## Como executar através do Docker
